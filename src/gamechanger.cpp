@@ -48,11 +48,11 @@ void Gamechanger::setSnakeColour(int red,int green,int blue){
 
 void Gamechanger::Converter(){
     float theme;
-    std::cout << "Set your favourate theme" << std::endl;
+    std::cout << "Set your Favourate Theme" << std::endl;
     std::cout << "Press 1 : Red Snake Blue Board" << std::endl;
     std::cout << "Press 2 : Green Snake Red Board" << std::endl;
     std::cout << "Press 3 : Blue Snake Green Board" << std::endl;
-    std::cout << "Press 4 : Custom Snake Black Board" << std::endl;
+    std::cout << "Press 4 : Custom Colured Snake Black Board" << std::endl;
 
 
     int isNum = scanf("%f", &theme);
