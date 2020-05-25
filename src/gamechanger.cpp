@@ -2,7 +2,7 @@
 #include <iostream>
 #include "SDL.h"
 
-Gamechanger::Gamechanger(){
+Gamechanger::Gamechanger(): choice_{0}{
     std::cout<<"Game changer class was made"<<std::endl;
     Gamechanger::Converter();
 }
