@@ -121,4 +121,8 @@ I have a function named setSnakeColour it take one argument as vector<int> when 
  
 ``` File : gamechanger.h Line 15 and 23 ```
 
+<img src="images/custom_color.png"/>
 
+This is custom colour functionality where snake colour be choose from all possible RGB combinations.
+
+# !!!! Happy Coding !!!!
