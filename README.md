@@ -82,7 +82,7 @@ Code compiles and Runs correctly their is no segmentation fault or any type of m
 
 #### 1. The project demonstrates an understanding of C++ functions and control structures.
 
-Various control structures and functions are used from for looks to switch cases in 
+Various control structures and functions are used from for loops to switch cases in for example in following file
 ``` File : gamechanger.cpp Line 61 ```
 
 #### 2. The project reads data from a file and process the data, or the program writes data to a file.
@@ -109,7 +109,7 @@ choice is a variable is set to 0 in the constructor which was not assigned any v
 
 #### 7. Classes abstract implementation details from their interfaces.
 
-All these properties can be seen in ``` File : gamechanger.h line 21 ``` their is abstraction of function convert.
+All these properties can be seen in ``` File : gamechanger.h line 21 ``` their is abstraction of function convert and calibate .
 
 #### 8. Classes encapsulate behavior.
 
@@ -117,7 +117,7 @@ All important data variables are private and are only accessable be getter and s
 
 #### 9. Overloaded functions allow the same function to operate on different parameters.
 
-I have a function named setSnakeColour it take one argument as vector<int> which choice is 1-3 but if we want custom color of snake then we use same funciton with 3 int arguments to set value of snake colour.
+I have a function named setSnakeColour it take one argument as vector<int> when choice is between 1-3 but if we want custom color of snake (Choice 4) then we use same funciton with 3 int arguments to set value of snake colour (RGB).
  
 ``` File : gamechanger.h Line 15 and 23 ```
 
