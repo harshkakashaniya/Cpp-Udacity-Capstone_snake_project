@@ -94,3 +94,15 @@ void Game::Difficulty_level()
 Snake* Game::getSnake(){
   return &snake;
 }
+
+void Game::print_results(int diff){
+    std::ofstream myfile;
+    myfile.open ("../Results.txt");
+    myfile << "Score : "<< GetScore() <<"\n";
+    myfile << "Lenght of Snake : "<< GetSize()<< " \n";
+    myfile << "Difficulty Level : "<<diff;
+    myfile.close();
+
+    std::cout << "Result Saved in Result file\n";
+
+}

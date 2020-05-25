@@ -4,6 +4,8 @@
 #include <vector>
 #include "SDL.h"
 #include "snake.h"
+#include "gamechanger.h"
+
 
 class Renderer {
  public:
@@ -15,6 +17,7 @@ class Renderer {
   void UpdateWindowTitle(int score, int fps);
 
  private:
+  Gamechanger gamechanger;
   SDL_Window *sdl_window;
   SDL_Renderer *sdl_renderer;
 

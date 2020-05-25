@@ -13,7 +13,7 @@ int main(){
   constexpr std::size_t kGridHeight{32};
 
   // Gamechanger stats
-  Gamechanger stats;
+  // Gamechanger stats;
   // stats.printPlatform();
 
   Renderer renderer(kScreenWidth, kScreenHeight, kGridWidth, kGridHeight);
@@ -22,6 +22,7 @@ int main(){
   Game game(kGridWidth, kGridHeight);
   game.Difficulty_level();
   game.Run(controller, renderer, kMsPerFrame);
+  game.print_results(game.getSnake()->getDifficultyLevel());
   std::cout << "Game has terminated successfully!\n";
   std::cout << "Congratulations !!!" << std::endl;
   std::cout << "At Difficulty level : "<< game.getSnake()->getDifficultyLevel() << std::endl;

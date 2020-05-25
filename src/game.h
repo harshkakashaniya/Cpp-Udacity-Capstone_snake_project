@@ -6,6 +6,8 @@
 #include "controller.h"
 #include "renderer.h"
 #include "snake.h"
+#include <iostream>
+#include <fstream>
 
 class Game {
  public:
@@ -16,6 +18,7 @@ class Game {
   int GetSize() const;
   void Difficulty_level();
   Snake* getSnake();
+  void print_results(int diff);
  private:
   Snake snake;
   SDL_Point food;

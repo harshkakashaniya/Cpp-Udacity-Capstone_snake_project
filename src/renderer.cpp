@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 
+
 Renderer::Renderer(const std::size_t screen_width,
                    const std::size_t screen_height,
                    const std::size_t grid_width, const std::size_t grid_height)
@@ -44,7 +45,7 @@ void Renderer::Render(Snake const snake, SDL_Point const &food) {
   block.h = screen_height / grid_height;
 
   // Clear screen
-  SDL_SetRenderDrawColor(sdl_renderer, 0x1E, 0x1E, 0x1E, 0xFF);
+  SDL_SetRenderDrawColor(sdl_renderer,gamechanger.getBoardColour()[0], gamechanger.getBoardColour()[1], gamechanger.getBoardColour()[2], gamechanger.getBoardColour()[3]);
   SDL_RenderClear(sdl_renderer);
 
   // Render food
@@ -54,7 +55,9 @@ void Renderer::Render(Snake const snake, SDL_Point const &food) {
   SDL_RenderFillRect(sdl_renderer, &block);
 
   // Render snake's body
-  SDL_SetRenderDrawColor(sdl_renderer, 0x00, 0x00, 0xFF, 0xFF);
+  SDL_SetRenderDrawColor(sdl_renderer, gamechanger.getSnakeColour()[0], gamechanger.getSnakeColour()[1], gamechanger.getSnakeColour()[2], gamechanger.getSnakeColour()[3]);
+  // SDL_SetRenderDrawColor(sdl_renderer, 255,0,0,255);
+  
   for (SDL_Point const &point : snake.body) {
     block.x = point.x * block.w;
     block.y = point.y * block.h;
@@ -65,7 +68,9 @@ void Renderer::Render(Snake const snake, SDL_Point const &food) {
   block.x = static_cast<int>(snake.head_x) * block.w;
   block.y = static_cast<int>(snake.head_y) * block.h;
   if (snake.alive) {
-    SDL_SetRenderDrawColor(sdl_renderer, 0x00, 0x7A, 0xCC, 0xFF);
+  SDL_SetRenderDrawColor(sdl_renderer, gamechanger.getSnakeColour()[0], gamechanger.getSnakeColour()[1], gamechanger.getSnakeColour()[2], gamechanger.getSnakeColour()[3]);
+  // SDL_SetRenderDrawColor(sdl_renderer, 255,255,255,255);
+
   } else {
     SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0x00, 0x00, 0xFF);
   }

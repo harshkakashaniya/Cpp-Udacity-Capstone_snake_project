@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/src/controller.cpp" "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/build/CMakeFiles/SnakeGame.dir/src/controller.cpp.o"
-  "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/src/game.cpp" "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/build/CMakeFiles/SnakeGame.dir/src/game.cpp.o"
-  "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/src/gamechanger.cpp" "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/build/CMakeFiles/SnakeGame.dir/src/gamechanger.cpp.o"
-  "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/src/main.cpp" "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/build/CMakeFiles/SnakeGame.dir/src/main.cpp.o"
-  "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/src/renderer.cpp" "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/build/CMakeFiles/SnakeGame.dir/src/renderer.cpp.o"
-  "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/src/snake.cpp" "/home/hbk/Desktop/Final/CppND-Capstone-Snake-Game/build/CMakeFiles/SnakeGame.dir/src/snake.cpp.o"
+  "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/src/controller.cpp" "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/build/CMakeFiles/SnakeGame.dir/src/controller.cpp.o"
+  "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/src/game.cpp" "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/build/CMakeFiles/SnakeGame.dir/src/game.cpp.o"
+  "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/src/gamechanger.cpp" "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/build/CMakeFiles/SnakeGame.dir/src/gamechanger.cpp.o"
+  "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/src/main.cpp" "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/build/CMakeFiles/SnakeGame.dir/src/main.cpp.o"
+  "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/src/renderer.cpp" "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/build/CMakeFiles/SnakeGame.dir/src/renderer.cpp.o"
+  "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/src/snake.cpp" "/home/hbk/Desktop/Final/Cpp-Udacity-Capstone_snake_project/build/CMakeFiles/SnakeGame.dir/src/snake.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

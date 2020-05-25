@@ -1,0 +1,3 @@
+Score : 4
+Lenght of Snake : 5 
+Difficulty Level : 3
